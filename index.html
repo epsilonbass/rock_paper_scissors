@@ -3,17 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title> Rock Paper Scissors</title>
-        
+        <link rel="stylesheet" href="rpsstyles.css">
     </head>
     <body>
+        <div class="gamebox">
+            
+        <div id="gameinfo">
+        <h1>ROCK, PAPER, SCISSORS!</h1>
+        <h2> best out of 5</h2>
 
-        <p>Player Selection</p>
-        <button onClick="playerSelection()">Play (rock)</button>
-        <p id="playerdemo"></p>
-
-        <p> Computer Selection</p>
-        <button onClick="computerPlay()">CompPlay</button>
-        <p id="demo"></p>
+       
+            <button id="goButt" onclick="game()">Play</button>
+            <p id="playerdemo"></p>
+            <p id="scoreboard"></p>
+        </div>
+    </div>
+        
 
         <script src="rpcscript.js"></script>
     </body>

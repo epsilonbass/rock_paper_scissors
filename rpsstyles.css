@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.gamebox {
+    margin: auto;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: rgb(48, 40, 26);
+    width: 500px;
+    height: 500px;
+
+}
+
+#gameinfo {
+    text-align: center;
+  
+    
+}
+
